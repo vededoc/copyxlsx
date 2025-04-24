@@ -9,7 +9,7 @@ program.parse();
 const opts = program.opts();
 
 console.log('output: ', opts.output)
-console.log(program.argument[0])
+console.log(program.argument[0], opts)
 //
 // // 원본 파일 경로
 // const sourceFile = '/home/netmind/Documents/testsampl.xlsx';
